@@ -1,0 +1,13 @@
+news_sites:
+  larepublica:
+    url: https://larepublica.pe
+    queries:
+      homepage_article_links : '.LastNewsHeadline a'
+      article_body: '.DefaultSubtitle'
+      article_title: '.DefaultTitle'
+  elcorreo:
+    url: https://diariocorreo.pe
+    queries:
+      homepage_article_links : '.featured-story__title-link'
+      article_body: '.story-content__font--secondary'
+      article_title: '.story-header__news-title'
